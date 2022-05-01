@@ -1,4 +1,6 @@
 
+#a function decorator that get a function
+#decorate that function to run twice
 def twice(func):
     def inside(*args):
         func(*args)
